@@ -1,0 +1,22 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass   (SCSS) here: https://sass-lang.com/
+  #intro {
+        background-image: url("
+      http://localhost:3000/assets/library3-267e09f671170aad8349ffaa425f4f657466a87bf78a8bd79f44dc8b458ab6ae.jpg");
+        height: 100vh;
+      }
+
+      .myalign-items-center {
+-webkit-box-align: center!important;
+      align-items: center!important;
+
+      }
+
+  @media all and (min-width: 992px) {
+	
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.dropdown-menu-left { right: 0; left: auto;}
+	
+	}

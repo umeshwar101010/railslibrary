@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  iban: 1
+  name: MyString
+  author: MyString
+  year: 2021-03-11
+  publisher: MyString
+  category: MyString
+  language: MyString
+
+two:
+  iban: 1
+  name: MyString
+  author: MyString
+  year: 2021-03-11
+  publisher: MyString
+  category: MyString
+  language: MyString

@@ -1,0 +1,52 @@
+<div class="container">
+
+<p id="notice"><%  notice %></p>
+      
+<div class="jumbotron">
+ <form>
+  <h1 class="display-4"><%= @book.name %></h1>
+  <h2 class="display-4"><%= @book.year %></h2>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+        <label >ID</label>
+        <input type="text" class="form-control"  placeholder= <%= @book.id %> readonly>
+      </div>
+      <div class="form-group col-md-6">
+        <label >IBAN</label>
+        <input type="text" class="form-control" placeholder= <%= @book.iban %> readonly>
+        </div>
+  <div class="form-group col-md-12">
+    <label >Author</label>
+    <input type="text" class="form-control"  placeholder=  <%= @book.author %> readonly>
+  </div>
+  <div class="form-group col-md-12">
+    <label >Publisher</label>
+    <input type="text" class="form-control"  placeholder=  <%= @book.publisher %> readonly>
+  </div>
+  <div class="form-group col-md-6">
+    <label >Category</label>
+    <input type="text" class="form-control"  placeholder=  <%= @book.category %> readonly>
+  </div>
+  <div class="form-group col-md-6">
+    <label >Language</label>
+    <input type="text" class="form-control"  placeholder=  <%= @book.language %> readonly>
+  </div>
+  </div>
+</form>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<%= link_to 'Edit', edit_book_path(@book), class:"btn btn-outline-dark"  %> 
+<%= link_to 'Back', books_path, class:"btn btn-dark"%>
